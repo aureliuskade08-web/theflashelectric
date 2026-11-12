@@ -1,0 +1,37 @@
+:root {
+  /* spacing, type scale, motion: the shared scale, tuned for this page */
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.8125rem; --text-sm: 0.9375rem; --text-md: 1.0625rem; --text-lg: 1.25rem; --text-xl: 1.5625rem; --text-2xl: 1.953rem; --text-3xl: 2.441rem;
+  --text-hero: clamp(2.9rem, 5.4vw + 0.4rem, 6rem); --text-display-s: clamp(2.25rem, 4vw + 0.5rem, 3.75rem); --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
+  --text-section: clamp(2rem, 2.6vw + 1rem, 3.6rem); --text-title: clamp(1.25rem, 0.75vw + 0.9rem, 1.7rem); --text-lead: clamp(1.125rem, 0.4vw + 1rem, 1.4rem);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-liquid: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-micro: 140ms; --dur-short: 260ms; --dur-long: 520ms;
+  --container: 1440px; --gutter: 64px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+
+  /* the storm: ground, ink, light. Palette from the five gradients: mist, amber, ember, crimson, near-black */
+  --color-paper: #100C08; --color-paper-2: #1B0D0C; --color-paper-3: #2C0F15;
+  --color-ink: #F3F4F5; --color-ink-2: #DBE0E1; --color-muted: #C9B6B0;
+  --field-fill: rgb(8 3 3 / 0.45); --field-edge: #8C7872;
+  --color-rule: rgb(243 244 245 / 0.16);
+  --color-amber: #FF9408; --color-ember: #CA3F16; --color-crimson: #95122C;
+  --color-accent: #FF9408; --color-accent-ink: #100C08; --color-focus: #FFB547;
+  --color-error: #FF7A66; --color-success: #8FE0A8;
+
+  /* wet glass: every layer of the liquid surface is a token */
+  --glass-fill-hi: rgb(243 244 245 / 0.17); --glass-fill-lo: rgb(243 244 245 / 0.05);
+  --glass-edge: rgb(243 244 245 / 0.30); --glass-edge-soft: rgb(243 244 245 / 0.12);
+  --glass-spec: rgb(255 244 232 / 0.85); --glass-spec-soft: rgb(255 244 232 / 0.34);
+  --glass-inner: rgb(255 148 8 / 0.14); --glass-shadow: rgb(8 3 3 / 0.55);
+  --glass-tint-ember: rgb(202 63 22 / 0.62); --glass-tint-crimson: rgb(149 18 44 / 0.7); --glass-tint-amber: rgb(255 148 8 / 0.5);
+  --glow-amber: rgb(255 148 8 / 0.5); --glow-ember: rgb(202 63 22 / 0.55);
+  --drop-hi: rgb(255 244 232 / 0.75); --drop-body: rgb(243 244 245 / 0.07); --drop-shade: rgb(8 3 3 / 0.4);
+  --rain: rgb(243 244 245 / 0.1);
+  --field-fill: rgb(8 3 3 / 0.38);
+  --ground-bloom-a: rgb(149 18 44 / 0.55); --ground-bloom-b: rgb(202 63 22 / 0.3);
+
+  --font-display: "Clash Display", "Arial Narrow", ui-sans-serif, sans-serif; --font-body: "Satoshi", ui-sans-serif, system-ui, sans-serif; --font-outlier: var(--font-display);
+  --radius-card: 28px; --radius-lg: 40px; --radius-md: 20px; --radius-pill: 999px; --rule-hair: 1px; --shadow-card: 0 18px 40px var(--glass-shadow);
+  --tracking-display: -0.02em;
+}
